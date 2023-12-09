@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #form{
+            border: 5px solid black;
+            text-align: center;
+            margin-left : 22em;
+            margin-right: 22em;
+            margin-top : 12em;
+            padding: 2em;
+            font-size: large;
+            font-weight: 900;
+            border-radius: 12px;
+            background-color: rgb(43, 42, 42);
+        }
+        #email{
+            border: 2px solid black;
+            padding: 2px;
+            border-radius: 6px;
+            background-color: rgb(242, 242, 242);
+            color: white;
+        }
+        #name{
+            border: 2px solid black;
+            padding: 2px;
+            border-radius: 6px;
+            background-color: rgb(242, 242, 242);
+            color: white;
+        }
+        #code{
+            border: 2px solid black;
+            padding: 2px;
+            border-radius: 6px;
+            background-color: rgb(242, 242, 242);
+            color: white;
+        }
+        #name:hover{
+            border: 4px solid black;
+            font-size: 14px;
+            background-color: white;
+            border-radius: 12px;
+        } 
+        #email:hover{
+            border: 4px solid black;
+            font-size: 14px;
+            background-color: white;
+            border-radius: 12px;
+        }  
+        #code:hover{
+            border: 4px solid black;
+            font-size: 14px;
+            background-color: white;   
+            border-radius: 12px;    
+        
+        } 
+        #sub:hover{
+            font-size: 18px;
+
+        }
+        #name:focus{
+            border: 4.8px solid black;
+            font-size: 18px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #email:focus{
+            border: 4.8px solid black;
+            font-size: 18px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #code:focus{
+            border: 4.8px solid black;
+            font-size: 18px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #re:hover{
+            font-size: 18px;
+        } 
+              
+    </style>
+</head>
+<body> 
+    
+    <form action="" id="form">
+        <h1>Sign Up</h1>
+        <label for="Name">Name     :</label>
+        <input type="text" placeholder="Enter your name" id="name"> <br><br>
+        <label for="Name">Email     :</label>
+        <input type="email" placeholder="Enter your Email" id="email"> <br><br>
+        <label for="Name">Password     :</label>
+        <input type="password" placeholder="Enter your Password" id="code"> <br><br>
+        <button type="submit" id="sub" style="border-radius: 5px; border: 0px;" >Submit</button>
+        <button type="reset" id="re"  style="border-radius: 5px;border: 0px;">Reset</button>
+
+    </form>
+</body>
+</html>
